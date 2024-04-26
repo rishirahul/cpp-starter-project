@@ -2,7 +2,7 @@ cpp-starter-project
 ===================
 Different C++ projects can adopt various directory structures, each with its own merits. There's no definitive answer to what's right or wrong. However, certain needs, such as automated documentation generation, integration with testing frameworks, and CI/CD automation, are typical across projects.
 
-I've established this repository as a foundation for a new C++ project. It's structured to accommodate multiple subprojects, comprising binaries and libraries within a central project. Documentation is generated using Doxygen, and Google Test serves as the framework for test cases.
+This repository can serve as good starting point for a new C++ project. It's structured to accommodate multiple subprojects, (comprising binaries and libraries) within a central project. Documentation is generated using Doxygen, and Google Test serves as the framework for test cases.
 
 A simple TCP/IP based client-server project is used to an example. It generates `client` and `server` binaries along with `SocketLib` static library.
 
